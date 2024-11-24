@@ -1,2 +1,2 @@
 # Audio_project
-Distinguish seven sounds of hitting objects at Penn with machine learning.
+Utilize machine learning to distinguish seven object impact sounds at Penn.
