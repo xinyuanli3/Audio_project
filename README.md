@@ -54,6 +54,7 @@ XGBoost performance on the test set: Accuracy: 0.4571
             ),
         
 knn performance on the test set: Accuracy:  0.4857
+
             'knn': KNeighborsClassifier(
                 n_neighbors=5,
                 weights='distance',
@@ -62,6 +63,7 @@ knn performance on the test set: Accuracy:  0.4857
             ),
 
 SVM performance on the test set: Accuracy:   0.7429
+
             'svm': SVC(
                 kernel='rbf',
                 C=1.0,
@@ -72,6 +74,7 @@ SVM performance on the test set: Accuracy:   0.7429
             )
 
 Ensemble performance on the test set: Accuracy:   0.5429
+
         ensemble = VotingClassifier(
             estimators=[
                 ('dt', models['dt']),
